@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+<head>
+<title>Pagina Principal</title>
+</head>
+<body>
+<h1>PAGINA PRINCIPAL</h1>
+<br/><br/>
+
+</body>
+</html>

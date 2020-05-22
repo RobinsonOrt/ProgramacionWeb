@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Calculadora</title>
+</head>
+<body>
+<h1>Calculadora</h1>
+<br/>
+<h3>Realice un Cálculo</h3>
+<form name="calculator">
+<input type="textfield" name="ans" value="" disabled="true">
+<br/><br/>
+<input type="button" Value="1" onClick="document.calculator.ans.value+='1'">
+<input type="button" Value="2" onClick="document.calculator.ans.value+='2'">
+<input type="button" Value="3" onClick="document.calculator.ans.value+='3'">
+<input type="button" Value="+" onClick="document.calculator.ans.value+='+'">
+<br/><br/>
+<input type="button" Value="4" onClick="document.calculator.ans.value+='4'">
+<input type="button" Value="5" onClick="document.calculator.ans.value+='5'">
+<input type="button" Value="6" onClick="document.calculator.ans.value+='6'">
+<input type="button" Value="-" onClick="document.calculator.ans.value+='-'">
+<br/><br/>
+<input type="button" Value="7" onClick="document.calculator.ans.value+='7'">
+<input type="button" Value="8" onClick="document.calculator.ans.value+='8'">
+<input type="button" Value="9" onClick="document.calculator.ans.value+='9'">
+<input type="button" Value="*" onClick="document.calculator.ans.value+='*'">
+<br/><br/>
+<input type="reset" value="c">
+<input type="button" Value="0" onClick="document.calculator.ans.value+='0'">
+<input type="button" Value="/" onClick="document.calculator.ans.value+='/'">
+<input type="button" Value="=" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)"
+</form>
+
+<figure>
+<a href="../index.html">
+<img src="../Imagenes/Atras.jpg" alt="Atras">
+<figcaption>Click para volver</figcaption>
+</a>
+</figure>
+
+</body>
+</html>
