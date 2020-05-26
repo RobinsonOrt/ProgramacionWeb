@@ -1,0 +1,64 @@
+body {
+	margin: 0px;
+	background-color: #C6C6C6;
+}
+
+/* cabezote */
+header {
+	background-color: yellow;
+	font-family: Arial;
+	padding: 0px;
+	margin: 0px;
+}
+header h1 {
+	margin: 0px;
+	padding: 10px;
+	font-size: 250%;
+	text-align: middle;
+}
+
+/* menu horizontal */
+.menu_hor {
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: green;
+}
+.menu_hor li {
+  float: left;
+}
+.menu_hor li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+}
+
+/* maquetación productos y banners */
+section { 
+	width: 100%; 
+	float: left;
+	margin-left: 0px;	
+}
+article {
+	clear: both;
+	/*border-bottom: dashed gray 1px;*/
+}
+article img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+/* pie de página */
+footer {
+	clear: both;
+	background-color: yellow;
+	margin: 0px;
+	padding: 5px;
+	border-top: 2px solid black;
+	font-family: Arial;
+}
