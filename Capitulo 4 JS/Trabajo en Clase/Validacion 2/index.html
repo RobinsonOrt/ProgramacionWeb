@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Validacion</title>
+	<script type="text/javascript" src="Js/Validar.js"></script>
+</head>
+<body>
+
+	<form action="Procesar.jsp" method="post" onsubmit="return validar()" novalidate>
+		<p>Edad:
+			<input type="number" id="edad" min="1" max="120" />
+		</p>
+		<input type="Submit" value="validar"/>
+	</form>
+
+
+</body>
+</html>
