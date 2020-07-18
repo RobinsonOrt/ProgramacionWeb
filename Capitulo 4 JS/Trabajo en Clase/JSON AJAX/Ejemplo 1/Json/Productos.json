@@ -1,0 +1,20 @@
+{"productos":[
+
+{"id":10,
+"nombre":"Arduino",
+"Precio":30.000,
+"foto":"Images/Prod_01.png",
+"descripcion":"Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus."},
+
+{"id":20,
+"nombre":"Modulo GSM",
+"Precio":51.000,
+"foto":"Images/Prod_02.png",
+"descripcion":"Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus."},
+
+{"id":30,
+"nombre":"Raspberry",
+"Precio":250.000,
+"foto":"Images/Prod_03.png",
+"descripcion":"Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus."}
+]}
