@@ -19,7 +19,7 @@ function mostrar(respuesta){
 
 
 function get_productos_json() {
-	var url = "https://raw.githubusercontent.com/RobinsonOrt/ProgramacionWeb/master/Capitulo%204%20JS/Trabajo%20en%20Clase/Archivos%20Json/Productos.json";
+	var url = "https://raw.githubusercontent.com/RobinsonOrt/ProgramacionWeb/master/Capitulo%205%20JSON%20AJAX/Trabajo%20en%20Clase/Archivos%20Json/Productos.json";
 
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
